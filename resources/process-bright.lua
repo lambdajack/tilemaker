@@ -9,9 +9,9 @@
 -- Preferred language can be (for example) "en" for English, "de" for German, or nil to use OSM's name tag:
 preferred_language = "en"
 -- This is written into the following vector tile attribute (usually "name:latin"):
-preferred_language_attribute = "name"
+preferred_language_attribute = "name:latin"
 -- If OSM's name tag differs, then write it into this attribute (usually "name_int"):
-default_language_attribute = "name_int"
+default_language_attribute = "name:latin"
 -- Also write these languages if they differ - for example, { "de", "fr" }
 additional_languages = {}
 --------
